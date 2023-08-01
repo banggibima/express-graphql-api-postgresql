@@ -1,0 +1,17 @@
+type Query {
+  findManyUsers: [User]
+  findOneUser(id: ID): User
+}
+
+type Mutation {
+  createOneUser(name: String, email: String, password: String): User
+  updateOneUser(id: ID, name: String, email: String, password: String): User
+  removeOneUser(id: ID): User
+}
+
+type User {
+  id: ID
+  name: String
+  email: String
+  password: String
+}

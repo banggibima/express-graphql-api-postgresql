@@ -1,0 +1,18 @@
+# dependecies
+node_modules
+
+# production
+dist
+
+# misc
+.DS_Store
+.env
+
+# ide
+.vscode
+.idea
+
+# lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
